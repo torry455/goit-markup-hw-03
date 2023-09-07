@@ -12,7 +12,7 @@
     --f-family-primary: 'Raleway';
  
 }
-. .container
+
 *,
 *::before,
 *::after {
@@ -58,19 +58,40 @@ h6 {
     margin: 0;
 }
 
+.button {
+    font-family: inherit;
+}
+
 .container {
-    max-width: 1440px;
+    max-width: 1158px;
     padding: 0;
     margin: 0 auto;
 
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 /*Header*/
+
+
+.header-inner {
+    display: flex;
+    border-bottom: 1px solid var(--c-header);
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo {
+    margin-top: 25.5px;
+    margin-bottom: 25.5px;
     color: var(--c-logo);
     font-family: var(--f-family-primary), sans-serif;
     text-decoration: none;
     text-transform: uppercase;
+    max-width: 115px;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -88,9 +109,19 @@ h6 {
     text-decoration: none;
 }
 
-.nav-link {
-    display: inline-flexbox;
+.nav-list {
+    display: flex;
+    max-width: 261px;
     gap: 40px;
+    margin-right: 332px;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.nav-link {
+    display: inline-block;
     color: var(--c-brand);
     text-decoration: none;
     list-style: none;
@@ -111,9 +142,21 @@ h6 {
 
 .address {
     font-style: normal;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+.contact-list {
+    display: flex;
+    max-width: 400px;
+    gap: 40px;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
 .nav-contacts {
+    display: inline-block;
     color: var(--c-primary);
     text-decoration: none;
     list-style: none;
@@ -129,24 +172,27 @@ h6 {
 
 }
 
-.hero-section {
-    background-color: var(--c-brand);
-}
 
 /*Hero section*/
 
 .hero-section {
-
+    background-color: var(--c-brand);
 }
 
+
+
 .hero-title {
+    display: flex;
+    max-width: 496px;
+    justify-content: center;
+    padding: auto;
     color:#FFF;
     font-size: 56px;
     font-weight: 700;
     letter-spacing: 1.12px;
     line-height: 1.07;
     text-align: center; 
-    padding: 188px 472px 24px ;   
+    
 }
 
 .button-container {
