@@ -183,16 +183,11 @@ img {
 
 .hero-section {
     background-color: var(--c-brand);
-    display: flex;
     padding: 188px 472px;
 }
 
-
-
 .hero-title {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+    max-width: 496px;
     color:#FFF;
     font-size: 56px;
     font-weight: 700;
@@ -260,13 +255,12 @@ img {
 .solution-block {
     display: space-between;
     max-width: 264px;
-    align-content: flex-start;
     margin-right: 24px;
  
 }
 
-.solution-block:nth-child(:last-child) {
-    padding-right: 0;
+.solution-block:not(:last-child) {
+    margin-right: 0;
 }
 
 
