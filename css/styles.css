@@ -85,6 +85,7 @@ img {
 
 .header-inner {
     display: flex;
+    align-items: flex-start;
     border-bottom: 1px solid var(--c-header);
     justify-content: space-between;
     align-items: center;
