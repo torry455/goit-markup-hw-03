@@ -191,6 +191,7 @@ img {
 
 
 .hero-title {
+    display: flex;
     max-width: 496px;
     margin-bottom: 48px;
     justify-content: center;
