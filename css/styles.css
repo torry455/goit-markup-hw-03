@@ -190,8 +190,8 @@ img {
 
 
 .hero-title {
-
-  
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     color:#FFF;
     font-size: 56px;
