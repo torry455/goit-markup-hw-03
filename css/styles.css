@@ -190,7 +190,7 @@ img {
 
 
 .hero-title {
-    display: flex;
+
     max-width: 496px;
     margin-bottom: 48px;
     justify-content: center;
@@ -205,10 +205,10 @@ img {
 }
 
 .button-container {
-    display: flex;
+
     padding: 16px 32px;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .button-primary {
