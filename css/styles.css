@@ -129,6 +129,7 @@ img {
 .menu-list {
     display: flex;
     align-items: center;
+    padding: 0 15px;
 }
 
 .menu {
