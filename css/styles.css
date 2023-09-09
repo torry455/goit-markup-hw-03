@@ -70,7 +70,6 @@ img {
 
 .container {
     max-width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
 
 }
@@ -89,15 +88,17 @@ img {
 .header-inner {
     display: flex;
     padding: 0 15px;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
 }
 
-.header-nav {
+
+
+.nav-list {
     display: flex;
-}
+    align-items: center;
+    gap: 40px;
+    flex-grow: 1;
 
+}
 
 .logo {
     margin-top: 25.5px;
@@ -127,16 +128,12 @@ img {
     text-decoration: none;
 }
 
-
-
-.nav-list {
+.menu {
     display: flex;
-    max-width: 261px;
+    max-width: 452px;
     gap: 40px;
-    flex-grow: 1;
-    justify-content: flex-start;
     padding: 24px 0;
-    gap: 40px;
+
 }
 
 .nav-link {
@@ -164,13 +161,14 @@ img {
 
 .contact-list {
     display: flex;
-    max-width: 400px;
-    gap: 40px;
-    flex-grow: 1;
     font-style: normal;
     margin-top: 24px;
     margin-bottom: 24px;
+    gap: 40px;
 }
+
+
+
 
 .nav-contacts {
     color: var(--c-primary);
@@ -213,10 +211,10 @@ img {
     padding: 16px 32px;
     align-items: center;
     text-align: center;
-    margin: 48px 635px 188px 636px;
     min-width: 169px;
     height: 56px;
     border: none;
+    border-color: var(--c-logo);
     
     
 }
