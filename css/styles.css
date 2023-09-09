@@ -84,13 +84,14 @@ img {
 
 .header {
     border-bottom: 1px solid var(--c-header);
-    max-width: 1158px;
 }
 
 .header-inner {
     display: flex;
     padding: 0 15px;
-
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .header-nav {
