@@ -87,13 +87,14 @@ img {
 
 .header-inner {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0 15px;
 }
 
 .nav-list {
     display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 40px;
     flex-grow: 1;
 
@@ -131,6 +132,7 @@ img {
 }
 
 .menu {
+    
     display: flex;
     max-width: 452px;
     gap: 40px;
@@ -433,9 +435,7 @@ img {
 
 .footer-inner {
     padding-top: 101.5px;
-    padding-bottom: 100px;
-
-    
+    padding-bottom: 100px; 
 }
 
 .footer-logo {
