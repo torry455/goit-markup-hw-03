@@ -88,16 +88,22 @@ img {
 .header-inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0 15px;
 }
 
 .nav-list {
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     gap: 40px;
     flex-grow: 1;
+    padding: 0;
 
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    max-width: 452px;
 }
 
 .logo {
@@ -126,20 +132,12 @@ img {
     text-decoration: none;
 }
 
-.menu-list {
+.nav-list {
     display: flex;
     align-items: center;
-    padding: 0 15px;
-}
-
-.menu {
-    
-    display: flex;
-    max-width: 452px;
     gap: 40px;
-    padding: 24px 0;
-
 }
+
 
 .nav-link {
    
@@ -150,7 +148,6 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     padding: 24px 0;
-
 }
 
 .nav-link:hover {
@@ -164,13 +161,10 @@ img {
 
 .contact-list {
     display: flex;
-    justify-content: flex-end;
     font-style: normal;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    justify-content: center;
     gap: 40px;
-    margin-right: 0;
-    padding-right: 0;
+
 }
 
 .nav-contacts {
@@ -259,18 +253,13 @@ img {
 
 .solution-list {
     display: flex;
-    flex-basis: calc((100% - 72px) / 4);
     padding: 0;
-    justify-items: flex-start;
-    text-align: left;
+    gap: 24px;
 
 }
 
 .solution-block {
-    display: space-between;
-    max-width: 264px;
-    gap: 24px;
-    margin-right: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .solution-block:not(:last-child) {
@@ -284,7 +273,6 @@ img {
     letter-spacing: 0.4px;
     font-weight: 500;
     line-height: 24px;
-    width: calc((100% - 72px) / 4);
  
 }
 
@@ -387,9 +375,6 @@ img {
     row-gap: 48px;
     column-gap: 24px;
 
-}
-.service-inner {
-        flex-basis: calc((100% - 48px) / 3);
 }
 
 .sevice-block {
