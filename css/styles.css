@@ -58,6 +58,10 @@ h6 {
     margin: 0;
 }
 
+ul {
+    padding: 0;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -135,7 +139,6 @@ img {
 .nav-list {
     display: flex;
     align-items: center;
-    gap: 40px;
 }
 
 
@@ -159,12 +162,15 @@ img {
     color: var(--c-hover);
 }
 
+address {
+    margin-left: auto;
+}
+
 .contact-list {
     display: flex;
     font-style: normal;
     justify-content: center;
     gap: 40px;
-
 }
 
 .nav-contacts {
@@ -201,6 +207,8 @@ img {
     line-height: 1.07;
     text-align: center;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -213,7 +221,7 @@ img {
     height: 56px;
     border: none;
     border-color: var(--c-logo);
-
+    margin: 0 auto;
     font-family: inherit;
     color: #FFFFFF;
     background-color: var(--c-secondary);
@@ -288,6 +296,10 @@ img {
 /*Our team section*/
 .team {
     background-color: var(--c-background);
+}
+
+.team-inner {
+    padding: 0 15px;
 }
 
 .team-member,
@@ -374,7 +386,6 @@ img {
     text-align: left;
     row-gap: 48px;
     column-gap: 24px;
-
 }
 
 .service-block {
@@ -414,7 +425,6 @@ img {
 /*Footer*/
 .footer {
     background-color: var(--c-brand);
-    margin-top: 120px;
     padding: 100px 0;
 }
 
@@ -452,8 +462,6 @@ img {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    margin-top: 17.5px;
-
 }
 
 
